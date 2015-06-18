@@ -1,0 +1,275 @@
+/************************************************
+             	6.Horizontally Spaced            
+************************************************/
+.image-padding-1 {
+	padding: 20px;
+	
+}
+
+.horizontal-center {
+	float: left;
+}
+
+
+/************************************************
+             	7. Vertically Spaced            
+************************************************/
+
+.image-padding-2 {
+	padding: 100px 0 100px 0;
+}
+
+/************************************************
+             	8. Horizontal List            
+************************************************/
+
+.horizontal {
+ 	float: left;
+ 	list-style-type: none;
+
+}
+
+
+/************************************************
+             	9. Buttons        
+************************************************/
+
+.button-style {
+	background-color: #FF8181;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+}
+
+.size-1 {
+	height: 50px;
+	width: 200px;
+	font-size: 25px;
+	padding-top: 20px;
+	vertical-align: middle;
+
+}
+
+.size-2 {
+	height: 25px;
+	width: 130px;
+	font-size: 15px;
+	vertical-align: middle;
+	padding-top: 11px;
+}
+
+.size-3 {
+	height: 18px;
+	width: 31px;
+	font-size: 12px;
+	vertical-align: middle;
+	padding-top: 6px;
+}
+
+.size-last {
+	height: 34px;
+	width: 130px;
+	font-size: 15px;
+	vertical-align: middle;
+	padding-top: 5px;
+	color: white;
+}
+
+#text-color {
+	color:white;
+}
+
+
+/************************************************
+             	10. Navigation        
+************************************************/
+
+.horizontal-nav {
+	float: left;
+	list-style-type: none;
+}
+
+.nav-style {
+	background-color: #FF8181;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+}
+
+nav li:hover {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #B78282;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.horizontal-nav :visited {
+	color:inherit;
+}
+
+.corner-radius-right {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.corner-radius-left {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+/************************************************
+             	11. Pagination        
+************************************************/
+
+.pag-style {
+	float: left;
+	margin-left: 13px;
+	margin-left: 13px;
+	text-decoration: none;
+	list-style-type: none;
+	color: #FF8181;
+	font-family: helvetica;
+	font-size: 20px
+}
+
+.add-underline {
+	border-bottom: 3px solid #FF8181;
+	padding bottom: 3px;
+}
+
+.color-state :visited {
+	color:  inherit;
+}
+
+.color {
+	color: #ACACAC;
+}
+
+.add-underline-color {
+	border-bottom: 3px solid #ACACAC;
+	padding bottom: 3px;
+}
+
+
+/************************************************
+             	12. Comment Stream        
+************************************************/ 
+
+.float-image {
+	float: left;
+	padding-bottom: 10px;
+}
+
+.display-block {
+	display: block;
+	clear: both;
+	position: relative;
+}
+
+
+.nested-1 {
+	display: inline-block;
+	padding-left: 10px; 
+	padding-bottom: 10px;
+
+}
+
+.nested-2 {
+	position: relative;
+	padding-left: 10px;
+}
+
+.text-padding {
+	padding-left: 90px;
+}
+
+.time-info {
+	font-size: 11px;
+	color: #ACACAC;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.vertical-align {
+	vertical-align: top;
+}
+
+
+/************************************************
+               	 13. Tabs      
+************************************************/ 
+
+
+/*
+put tabs in a div of their own
+have tabs with a positive z-index, 
+"open-tab" with a white border
+*/
+
+.tabs {
+	 list-style: none;
+	 position: absolute;
+	 z-index: 1;
+}
+
+.tabs li {
+	display: inline;
+
+}
+
+.tabs li a { 
+	color: blue;
+	display: inline-block;
+	text-decoration: none;
+	background: white;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-weight: bold;
+
+}
+
+.wrap {
+	border: 1px solid #a7a7f6;
+	position: relative;
+	min-height: 160px;
+	margin-top: 30px;
+	padding: 15px;
+	border-radius: 10px;
+	border-width: 3px;
+}
+
+.open-tab {
+		border: 3px solid #a7a7f6;
+		border-bottom: 3px solid #fff;
+		
+}
+
+.closed-tab {
+		border: 3px solid #a7a7f6;
+		border-bottom: 2px solid #a7a7f6;
+
+
+}
+
+.border-style {
+		border-top-right-radius: 6px;
+		border-top-left-radius: 6px;
+		padding: 5px 10px;
+}
+
+
+
+
+
+
+
